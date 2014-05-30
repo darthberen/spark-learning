@@ -1,0 +1,34 @@
+{
+  "name": "spark",
+  "version": "0.0.0",
+  "description": "Playing around with spark",
+  "private": false,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": {
+    "name": "Matt Price",
+    "email": "mattprice11@gmail.com"
+  },
+  "dependencies": {
+    "cylon": "^0.14.0",
+    "cylon-firmata": "^0.12.0",
+    "cylon-gpio": "^0.14.0",
+    "cylon-i2c": "^0.11.0",
+    "cylon-leapmotion": "^0.8.0",
+    "cylon-spark": "^0.8.0",
+    "cylon-sphero": "^0.10.0"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  },
+  "keywords": [
+    "spark"
+  ]
+}
